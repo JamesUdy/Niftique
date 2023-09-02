@@ -3,7 +3,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
 import './Header.css';
-import { Logo } from '../../assets'
+import { Logo } from '../../assets';
 
 const Nav_Link = [
     {
@@ -27,17 +27,17 @@ const Nav_Link = [
 const Header = () => {
   return (
     <header className='top-0 fixed left-0 w-full p-4'>
-        <section className='container flex gap-24 item-center justify-between'>
+        <section className='container flex gap:16 lg:gap-24 item-center justify-between'>
             <div className='flex items-center justify-between'>
-                <h2 className='flex gap-2 items-center text-2xl font-semibold webName ease-out duration-300 text-[#e0aaff] hover:text-white'>
+                <Link to='/' className='flex lg:gap-2 items-center text-2xl font-semibold webName ease-out duration-300 text-[#e0aaff] hover:text-white'>
                     <span>
-                        <img src={Logo} alt="" />          
+                        <img src={Logo} alt="Website Logo" />          
                     </span>
                     NIFTIQUE
-                </h2>
+                </Link>
             </div>
             <div className='flex items-center'>
-                <ul className='flex items-center space-x-10 list-none'>
+                <ul className='flex items-center space-x-4 lg:space-x-10 list-none'>
                     {
                         Nav_Link.map((item, index) => (
                             <li className='text-[#e0aaff] hover:text-white ease-in duration-300' key={index}>
@@ -47,7 +47,7 @@ const Header = () => {
                     }
                 </ul>
             </div>
-            <div className='flex items-center gap-5'>
+            <div className='flex items-center'>
                 <Link to='/wallet'>
                     <button className='flex group gap-3 py-2 px-4 border-2 text-[#9341db] border-[#7b2cbf] hover:bg-[#7a2cbf69] hover:border-[rgba(122,44,191,0.41)] hover:text-[#e0aaff] ease-in duration-300 rounded-3xl items-center text-base '>
                         <span>
@@ -57,9 +57,9 @@ const Header = () => {
                     </button>
                 </Link>
                 <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#e0aaff" className="w-6 h-6 hidden">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
-                </svg>
-            </span>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                    </svg>
+                </span>
             </div>
         </section>
     </header>
