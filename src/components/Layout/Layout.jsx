@@ -6,14 +6,14 @@ import Footer from '../Footer/Footer'
 
 const Layout = () => {
   return (
-    <>
+    <section className='max-w-full'>
         <Header />
         <div>
             <Routers />
         </div>
         <Footer />
-    </>
+    </section>
   )
 }
 
-export default Layout
+export default Layout;

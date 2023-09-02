@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Link } from 'react-router-dom';
 
@@ -44,7 +44,7 @@ const Explore = [
 ];
 
 const Footer = () => {
-  return <footer className='footer'>
+  return <footer className='footer absolute bottom-0'>
     <section className='container mt-10 px-4'>
       <div className='grid items-center gap-6 grid-cols-[1fr,1fr,1fr,1fr]'>
         <section className='flex flex-col space-y-2'>
@@ -56,7 +56,7 @@ const Footer = () => {
                       NIFTIQUE
                   </Link>
             </div>
-            <p>Welcome to <strong>Niftique</strong>, where digital art, music, and collectibles converge. Explore a world of unique NFT creations, connect with visionary creators, and own a piece of digital history. Discover the future of ownership at <strong>Niftique</strong>.</p>
+            <p className='text-sm tracking-wider'>Welcome to <strong>Niftique</strong>, where digital art, music, and collectibles converge. Explore a world of unique NFT creations, connect with visionary creators, and own a piece of digital history. Discover the future of ownership at <strong>Niftique</strong>.</p>
         </section>
           <section className='flex flex-col gap-4 items-center'>
             <h3 className='text-lg'>Profile Actions</h3>
@@ -90,15 +90,15 @@ const Footer = () => {
             <input type="text" className='newsletter px-4 py-2 rounded-md hover:bg-white hover:ring-2 hover:ring-[#ba6ff7] hover:ease-in hover:duration-150 bg-slate-300 text-slate-800 w-2/3 focus:bg-white placeholder-slate-800' placeholder='Email' />
           </div>
           <div className='flex items-center space-x-2'>
-            <Link to="#"><img src={Insta} alt="Insta Link" className='w-6 h-6' /></Link>
-            <Link to="#"><img src={Github} alt="Github Link" className='w-6 h-6' /></Link>
-            <Link to="#"><img src={Facebook} alt="Facebook Link" className='w-6 h-6' /></Link>
-            <Link to="#"><img src={Twitter} alt="Twitter Link" className='w-6 h-6' /></Link>
+            <Link to="#"><Insta /></Link>
+            <Link to="#"><Github /></Link>
+            <Link to="#"><Facebook /></Link>
+            <Link to="#"><Twitter /></Link>
           </div>
         </section>
       </div>
     </section>
-    <span className='text-sm font-light flex justify-center items-center mt-10 py-4 bg-[#590f8366]'>Copyrights 2023, Developed By James Udy. @JamesUdy All rights Reserved.</span>
+    <span className='text-sm text-slate-200 font-light flex justify-center items-center mt-10 py-4 bg-[#380a5266]'>Copyrights 2023, Developed By James Udy. @JamesUdy All rights Reserved.</span>
   </footer>
 }
 

@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: radial-gradient(circle, #240046, #1d0340, #170339, #130232, #10002b);
-    height: 100vh;
+    background-image: radial-gradient(circle, #150127c3, #0d011c, #0c011e, #0f0327, #0c021e);
+    min-height: 100vh;
 }
 
