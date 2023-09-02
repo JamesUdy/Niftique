@@ -56,7 +56,7 @@ const Footer = () => {
                       NIFTIQUE
                   </Link>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit commodi quia obcaecati molestiae, dolorum non corporis et cum est eos nesciunt facilis. Totam voluptates neque omnis numquam possimus repellat nihil?</p>
+            <p>Welcome to <strong>Niftique</strong>, where digital art, music, and collectibles converge. Explore a world of unique NFT creations, connect with visionary creators, and own a piece of digital history. Discover the future of ownership at <strong>Niftique</strong>.</p>
         </section>
           <section className='flex flex-col gap-4 items-center'>
             <h3 className='text-lg'>Profile Actions</h3>
@@ -102,4 +102,4 @@ const Footer = () => {
   </footer>
 }
 
-export default Footer
+export default Footer;
