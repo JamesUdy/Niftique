@@ -1,19 +1,20 @@
-import React from 'react'
-
-import Routers from '../../routes/Routers'
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
+import React from 'react';
+import Routers from '../../routes/Routers';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 const Layout = () => {
   return (
-    <section className='max-w-full'>
-        <Header />
-        <div>
-            <Routers />
-        </div>
-        <Footer />
-    </section>
-  )
-}
+    <div className="flex flex-col min-h-screen">
+      <Header />
+
+      <main className="flex-grow">
+        <Routers />
+      </main>
+
+      <Footer />
+    </div>
+  );
+};
 
 export default Layout;

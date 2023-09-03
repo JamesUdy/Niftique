@@ -44,7 +44,7 @@ const Explore = [
 ];
 
 const Footer = () => {
-  return <footer className='footer absolute bottom-0'>
+  return <footer className='bg-[#10002b5d] border-t-2 border-[#240046ba]'>
     <section className='container mt-10 px-4'>
       <div className='grid items-center gap-6 grid-cols-[1fr,1fr,1fr,1fr]'>
         <section className='flex flex-col space-y-2'>
@@ -63,8 +63,8 @@ const Footer = () => {
             <ul className='flex flex-col pl-3 space-y-1 list-none'>
                         {
                             Profile_Actions.map((item, index) => (
-                                <li className='text-[#e0aaff] hover:text-white ease-in duration-300 flex items-center space-x-2' key={index}>
-                                    <img src={Play} alt="Item Play" className='w-4 h-4' />
+                                <li className='text-[#e0aaff] group hover:text-slate-300 ease-in duration-300 flex items-center space-x-2' key={index}>
+                                    <Play />
                                     <Link to={item.url}>{item.display}</Link>
                                 </li>
                             ))
@@ -76,8 +76,8 @@ const Footer = () => {
                   <ul className='flex flex-col pl-12 space-y-1 list-none'>
                       {
                           Explore.map((item, index) => (
-                            <li className='text-[#e0aaff] hover:text-white ease-in duration-300 flex items-center space-x-2' key={index}>
-                                <img src={Play} alt="Item Play" className='w-4 h-4' />
+                            <li className='text-[#e0aaff] group hover:text-slate-300e-in duration-300 flex items-center space-x-2' key={index}>
+                                <Play />
                                 <Link to={item.url}>{item.display}</Link>
                             </li>
                           ))
@@ -87,7 +87,7 @@ const Footer = () => {
         <section  className='flex flex-col space-y-6'>
           <div className='flex flex-col space-y-2'>
             <h3 className='text-lg'>Newsletter</h3>
-            <input type="text" className='newsletter px-4 py-2 rounded-md hover:bg-white hover:ring-2 hover:ring-[#ba6ff7] hover:ease-in hover:duration-150 bg-slate-300 text-slate-800 w-2/3 focus:bg-white placeholder-slate-800' placeholder='Email' />
+            <input type="text" className='newsletter px-4 py-2 rounded-md hover:bg-white hover:ring-2 hover:ring-[#ba6ff7] hover:ease-in hover:duration-150 bg-slate-300 text-slate-800 focus:bg-white placeholder-slate-800' placeholder='Email' />
           </div>
           <div className='flex items-center space-x-2'>
             <Link to="#"><Insta /></Link>
@@ -98,7 +98,7 @@ const Footer = () => {
         </section>
       </div>
     </section>
-    <span className='text-sm text-slate-200 font-light flex justify-center items-center mt-10 py-4 bg-[#380a5266]'>Copyrights 2023, Developed By James Udy. @JamesUdy All rights Reserved.</span>
+    <span className='text-sm text-slate-200 font-light flex justify-center items-center mt-10 py-4'>Copyrights 2023, Developed By James Udy. @JamesUdy All rights Reserved.</span>
   </footer>
 }
 
