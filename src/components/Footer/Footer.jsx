@@ -38,13 +38,13 @@ const Explore = [
       url: '/contact',
   },
   {
-      display: 'Wallet',
-      url: '/wallet',
+      display: 'CryptoConverter',
+      url: '/converter',
   },
 ];
 
 const Footer = () => {
-  return <footer className='bg-[#10002b5d] border-t-2 border-[#240046ba]'>
+  return <footer className='bg-[#0903125d] border-t-2 border-[#1e0732ba]'>
     <section className='container mt-10 px-4'>
       <div className='grid items-center gap-6 grid-cols-1 sm:px-32 lg:px-0 lg:grid-cols-[1fr,1fr,1fr,1fr]'>
         <section className='flex flex-col space-y-2'>

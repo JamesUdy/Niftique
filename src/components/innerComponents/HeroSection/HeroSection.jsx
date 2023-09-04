@@ -7,7 +7,7 @@ import { Create, Explore } from '../../../assets';
 
 const HeroSection = () => {
   return (
-    <section className='container my-10 lg:x-10 px-6 max-w-full space-y-16 lg:space-y-0 justify-between flex flex-col lg:flex-row'>
+    <section className='container lg:px-10 px-6 max-w-full space-y-16 lg:space-y-0 justify-between flex flex-col lg:flex-row'>
             <div className='flex flex-col lg:w-1/2 space-y-4 m-2'>
                 <h2 className='text-4xl font-bold my-4'>Unlock the Future of Art Collection with Rare NFTs!</h2>
                 <p>🚀 Dive into a universe of exceptional digital art and seize one-of-a-kind 🌌 NFTs to propel your collection to the forefront of innovation.</p>
