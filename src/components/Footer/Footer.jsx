@@ -46,7 +46,7 @@ const Explore = [
 const Footer = () => {
   return <footer className='bg-[#10002b5d] border-t-2 border-[#240046ba]'>
     <section className='container mt-10 px-4'>
-      <div className='grid items-center gap-6 grid-cols-[1fr,1fr,1fr,1fr]'>
+      <div className='grid items-center gap-6 grid-cols-1 sm:px-32 lg:px-0 lg:grid-cols-[1fr,1fr,1fr,1fr]'>
         <section className='flex flex-col space-y-2'>
           <div className='flex items-center justify-between'>
                   <Link to='/' className='flex lg:gap-2 items-center text-2xl font-semibold webName ease-out duration-300 text-[#e0aaff] hover:text-white'>
@@ -73,7 +73,7 @@ const Footer = () => {
           </section>
           <section className='flex flex-col gap-4 items-center'>
           <h3 className='text-lg'>Explore</h3>
-                  <ul className='flex flex-col pl-12 space-y-1 list-none'>
+                  <ul className='flex flex-col lg:pl-12 space-y-1 list-none'>
                       {
                           Explore.map((item, index) => (
                             <li className='text-[#e0aaff] group hover:text-slate-300e-in duration-300 flex items-center space-x-2' key={index}>
@@ -98,7 +98,7 @@ const Footer = () => {
         </section>
       </div>
     </section>
-    <span className='text-sm text-slate-200 font-light flex justify-center items-center mt-10 py-4'>Copyrights 2023, Developed By James Udy. @JamesUdy All rights Reserved.</span>
+    <span className='text-[8px] sm:text-sm text-center text-slate-200 font-light flex justify-center items-center mt-10 py-4'>Copyrights 2023, Developed By James Udy. @JamesUdy All rights Reserved.</span>
   </footer>
 }
 
