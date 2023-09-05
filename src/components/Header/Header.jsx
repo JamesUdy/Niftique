@@ -56,7 +56,7 @@ const Header = () => {
                 </div>
                 <div className="flex items-center">
                     <Link to="/wallet">
-                        <button className="flex group gap-3 py-2 px-4 border-2 text-[#9341db] border-[#7b2cbf] hover:bg-[#7a2cbf69] hover:border-[rgba(122,44,191,0.41)] hover:text-[#e0aaff] ease-in duration-300 rounded-3xl items-center">
+                        <button className="w320:hidden sm:flex group gap-3 py-2 px-4 border-2 text-[#9341db] border-[#7b2cbf] hover:bg-[#7a2cbf69] hover:border-[rgba(122,44,191,0.41)] hover:text-[#e0aaff] ease-in duration-300 rounded-3xl items-center">
                             <span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ const Header = () => {
                         />
                     </div>
                 </div>
-                <div className={`${mobileMenuOpen ? 'block' : 'hidden'} w-full bg-[#090312c1] backdrop-filter backdrop-blur-lg  lg:hidden p-6 absolute top-[4.64rem] left-0 my-2 min-w-[140px] z-10 border-y-2 border-[#210e31ba]`}>
+                <div className={`${mobileMenuOpen ? 'block' : 'hidden'} w-full bg-[#090312c1] backdrop-filter backdrop-blur-lg  lg:hidden p-6 absolute top-[4rem] left-0 my-2 min-w-[140px] z-10 border-y-2 border-[#210e31ba]`}>
                     <ul className="list-none flex justify-center w-fit mx-auto flex-col items-center gap-4">
                         {Nav_Link.map((item, index) => (
                             <li
