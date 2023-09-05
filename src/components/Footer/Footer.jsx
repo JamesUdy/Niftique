@@ -87,7 +87,7 @@ const Footer = () => {
         <section  className='flex flex-col space-y-6'>
           <div className='flex flex-col space-y-2'>
             <h3 className='text-lg'>Newsletter</h3>
-            <input type="text" id='newsletter-input' name='newsletter-input' className='newsletter px-4 py-2 rounded-md hover:bg-white hover:ring-2 hover:ring-[#ba6ff7] hover:ease-in hover:duration-150 bg-slate-300 text-slate-800 focus:bg-white placeholder-slate-800' placeholder='Email' />
+            <input type="text" id='newsletter-input' name='newsletter-input' className='px-4 py-2 rounded-md hover:bg-white hover:ring-2 hover:ring-[#ba6ff7] hover:ease-in hover:duration-150 bg-slate-300 text-slate-800 focus:bg-white placeholder-slate-800' placeholder='Email' />
           </div>
           <div className='flex items-center space-x-2'>
             <Link to="#"><Insta /></Link>
