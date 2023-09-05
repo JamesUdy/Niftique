@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './Header.css';
-import { Logo, Close, Menu } from '../../assets';
+import { Logo, Close, Menu, Wallet } from '../../assets';
 
 const Nav_Link = [
     {
@@ -57,16 +57,7 @@ const Header = () => {
                 <div className="flex items-center">
                     <Link to="/wallet">
                         <button className="w320:hidden sm:flex group gap-3 py-2 px-4 border-2 text-[#9341db] border-[#7b2cbf] hover:bg-[#7a2cbf69] hover:border-[rgba(122,44,191,0.41)] hover:text-[#e0aaff] ease-in duration-300 rounded-3xl items-center">
-                            <span>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="#7b2cbf"
-                                    viewBox="0 0 24 24"
-                                    className="w-8 group-hover:fill-[#e0aaff] ease-in duration-300"
-                                >
-                                    <path d="M22.0049 7H23.0049V17H22.0049V20C22.0049 20.5523 21.5572 21 21.0049 21H3.00488C2.4526 21 2.00488 20.5523 2.00488 20V4C2.00488 3.44772 2.4526 3 3.00488 3H21.0049C21.5572 3 22.0049 3.44772 22.0049 4V7ZM20.0049 17H14.0049C11.2435 17 9.00488 14.7614 9.00488 12C9.00488 9.23858 11.2435 7 14.0049 7H20.0049V5H4.00488V19H20.0049V17ZM21.0049 15V9H14.0049C12.348 9 11.0049 10.3431 11.0049 12C11.0049 13.6569 12.348 15 14.0049 15H21.0049ZM14.0049 11H17.0049V13H14.0049V11Z"></path>
-                                </svg>
-                            </span>
+                            <Wallet />
                             Connect Wallet
                         </button>
                     </Link>

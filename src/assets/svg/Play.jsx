@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Play = () => {
   return (
@@ -8,6 +8,6 @@ const Play = () => {
     </svg>
 
   )
-}
+};
 
-export default Play
+export default Play;

@@ -1,6 +1,8 @@
 import Logo from './svg/Logo.svg';
 import Play from './svg/Play.jsx';
 
+import Wallet from './svg/Wallet';
+
 import Insta from './svg/Insta.jsx';
 import Facebook from './svg/Facebook.jsx';
 import Twitter from './svg/Twitter.jsx';
@@ -14,14 +16,15 @@ import Create from './svg/Create.jsx';
 
 export {
     Logo,
-    Play,
     Close,
     Menu,
+    
+    Play,
     Create,
-
     Explore,    
     Insta,
     Twitter,
     Facebook,
     Github,
+    Wallet,
 };
