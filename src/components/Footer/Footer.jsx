@@ -76,7 +76,7 @@ const Footer = () => {
                   <ul className='flex flex-col lg:pl-12 space-y-1 list-none'>
                       {
                           Explore.map((item, index) => (
-                            <li className='text-[#e0aaff] group hover:text-slate-100 ease-in duration-300 flex items-center space-x-2' key={index}>
+                            <li className='text-[#e0aaff] group hover:text-slate-300e-in duration-300 flex items-center space-x-2' key={index}>
                                 <Play />
                                 <Link to={item.url}>{item.display}</Link>
                             </li>
