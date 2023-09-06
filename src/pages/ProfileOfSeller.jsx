@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const ProfileOfSeller = () => {
   return (
     <div>ProfileOfSeller</div>
   )
-}
+};
 
-export default ProfileOfSeller
+export default ProfileOfSeller;

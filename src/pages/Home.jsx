@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import HeroSection from '../components/innerComponents/HeroSection/HeroSection'
+import HeroSection from '../components/innerComponents/HeroSection/HeroSection';
 
 const Home = () => {
   return (
@@ -8,6 +8,6 @@ const Home = () => {
       <HeroSection />
     </>
   )
-}
+};
 
-export default Home
+export default Home;
