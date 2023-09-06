@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const UpcomingBids = () => {
   return (
-    <section className='container border-t-2 mt-24 sm:mt-32 py-6 border-[#1e0732ba]'>
+    <section className='container border-t-2 mt-24 sm:mt-32 py-6 px-14 border-[#1e0732ba]'>
             <div className='flex flex-col space-y-4 mx-auto'>
                 <div className='flex items-center space-x-4'>
                     <h2 className='text-xl font-bold my-4'>Upcoming Bids</h2>
