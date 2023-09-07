@@ -4,7 +4,7 @@ import NFTCardDetails from './NFTCardDetails';
 const NFTCards = () => {
   return (
     <>
-    <NFTCardDetails />
+      <NFTCardDetails />
     </>
   )
 };
