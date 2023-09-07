@@ -18,7 +18,8 @@ const dataset = [
         status: true,
         userName: 'Mutant Ape Yacht Club',
         price: '100,000,000,000,000 ETH',
-        userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
+        userDp: 'https://i.seadn.io/gcs/files/bf2ee4f33cef0122f8daa548655be34d.png?auto=format&dpr=1&w=256',
+        ownedBy: 'siderides',
     },
     {
         id: 2,
@@ -28,6 +29,7 @@ const dataset = [
         userName: 'Mutant Ape Yacht Club',
         price: '100,000,000,000,000 ETH',
         userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
+        ownedBy: 'siderides',
     },    
     {
         id: 3,
@@ -37,6 +39,7 @@ const dataset = [
         userName: 'Mutant Ape Yacht Club',
         price: '100,000,000,000,000 ETH',
         userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
+        ownedBy: 'siderides',
     },  
     {
         id: 4,
@@ -46,6 +49,7 @@ const dataset = [
         userName: 'Mutant Ape Yacht Club',
         price: '100,000,000,000,000 ETH',
         userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
+        ownedBy: 'siderides',
     },  
     {
         id: 5,
@@ -55,6 +59,7 @@ const dataset = [
         userName: 'Mutant Ape Yacht Club',
         price: '5.4 ETH',
         userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
+        ownedBy: 'siderides',
     },  
     {
         id: 6,
@@ -64,6 +69,7 @@ const dataset = [
         userName: 'Mutant Ape Yacht Club',
         price: '100,000,000,000,000 ETH',
         userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
+        ownedBy: 'siderides',
     },  
     {
         id: 7,
@@ -73,6 +79,7 @@ const dataset = [
         userName: 'Mutant Ape Yacht Club',
         price: '100,000,000,000,000 ETH',
         userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
+        ownedBy: 'siderides',
     }, 
     {
         id: 8,
@@ -82,6 +89,7 @@ const dataset = [
         userName: 'Mutant Ape Yacht Club',
         price: '100,000,000,000,000 ETH',
         userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
+        ownedBy: 'siderides',
     },   
 ]
 

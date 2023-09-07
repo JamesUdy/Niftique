@@ -16,10 +16,13 @@ import Create from './svg/Create.jsx';
 
 import Rocket from './svg/Rocket';
 
+import Checked from './svg/Checked.svg';
+
 export {
     Logo,
     Close,
     Menu,
+    Checked,
     
     Play,
     Create,

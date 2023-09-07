@@ -9,7 +9,7 @@ import dataset from './NFTData';
 const sliderConfig = {
   slidesToShow: 4,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 1000,
   speed: 500,
   arrows: true,
@@ -18,7 +18,7 @@ const sliderConfig = {
 
 const NFTCards = () => {
   return (
-    <section className='p-24'>
+    <section className='px-24'>
       <Slider {...sliderConfig}>
         {dataset.map((data) => {
           return (
