@@ -14,6 +14,8 @@ import Menu from './svg/Menu.svg';
 import Explore from './svg/Explore.jsx';
 import Create from './svg/Create.jsx';
 
+import Rocket from './svg/Rocket';
+
 export {
     Logo,
     Close,
@@ -27,4 +29,5 @@ export {
     Facebook,
     Github,
     Wallet,
+    Rocket,
 };

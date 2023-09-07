@@ -1,13 +1,13 @@
 import React from 'react';
 
 import HeroSection from '../components/innerComponents/HeroSection/HeroSection';
-import UpcomingBids from '../components/innerComponents/UpcomingBids/UpcomingBids';
+import TrendingCreations from '../components/innerComponents/TrendingCreations/TrendingCreations';
 
 const Home = () => {
   return (
     <>
       <HeroSection />
-      <UpcomingBids />
+      <TrendingCreations />
     </>
   )
 };
