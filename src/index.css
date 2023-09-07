@@ -15,8 +15,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* index.css */
-
 html, body {
     height: 100%;
     overflow-x: hidden;
@@ -26,6 +24,6 @@ html, body {
   
 
 body {
-    background-image: radial-gradient(circle, #150127c3, #0d011c, #0c011e, #0f0327, #0c021e);
+    background-image: radial-gradient(circle, #150127c3, #080113, #090016, #06020f, #07030f);
 }
 
