@@ -34,7 +34,7 @@ const Header = () => {
     };
 
     return (
-        <header className="top-0 left-0 sm:px-8 lg:px-12 px-6 z-20 fixed w-full bg-[#1105183e] backdrop-filter backdrop-blur-lg p-4">
+        <header className="top-0 left-0 sm:px-8 lg:px-12 px-6 z-10 fixed w-full bg-[#1105183e] backdrop-filter backdrop-blur-lg p-4">
             <section className="container flex gap-8 lg:gap-12 item-center justify-between">
                 <div className="flex items-center justify-between">
                     <Link
@@ -70,8 +70,8 @@ const Header = () => {
                         />
                     </div>
                 </div>
-                <div className={`${mobileMenuOpen ? 'block' : 'hidden'} w-full bg-[#090312c1] backdrop-filter backdrop-blur-lg  lg:hidden p-6 absolute top-[4rem] left-0 my-2 min-w-[140px] z-10 border-y-2 border-[#210e31ba]`}>
-                    <ul className="list-none flex justify-center w-fit mx-auto flex-col items-center gap-4">
+                <div className={`${mobileMenuOpen ? 'block' : 'hidden'} w-full bg-[#090312e2] lg:hidden p-6 absolute top-[4rem] sm:top-[4.64rem] left-0 my-2 min-w-[140px] border-b-2 border-[#210e31ba]`}>
+                    <ul className="list-none w-full flex justify-center mx-auto flex-col items-center gap-4">
                         {Nav_Link.map((item, index) => (
                             <li
                                 key={index}
