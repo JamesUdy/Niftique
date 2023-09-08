@@ -83,13 +83,13 @@ const dataset = [
     }, 
     {
         id: 8,
-        img: 'https://i.seadn.io/gcs/files/bf2ee4f33cef0122f8daa548655be34d.png?auto=format&dpr=1&w=256',
-        userHandle: '8568',
+        img: 'https://i.seadn.io/gcs/files/f6427ad58196f27ca04b79b781430340.png?auto=format&dpr=1&w=1000',
+        userHandle: 'Kubz #3778',
         status: true,
-        userName: 'Mutant Ape Yacht Club',
-        price: '100,000,000,000,000 ETH',
-        userDp: 'https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&dpr=1&w=256',
-        createdBy: 'YugaLabs',
+        userName: 'Kubz',
+        price: '4.5 ETH',
+        userDp: 'https://i.seadn.io/gcs/files/820d812a78a8d20c544aba019feb4db2.png?auto=format&dpr=1&w=256',
+        createdBy: 'Keungz',
     },   
 ]
 

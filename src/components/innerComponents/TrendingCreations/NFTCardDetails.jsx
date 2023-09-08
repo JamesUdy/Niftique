@@ -7,8 +7,8 @@ const NFTCardDetails = (props) => {
   const { data } = props;
 
   return (
-    <section className='mx-3 sm:mx-6 p-1 h-[460px] my-8 group flex flex-col justify-around bg-[#100624c7] ring-2 ring-[#23153f] rounded-xl'>
-      <div className="rounded-xl overflow-hidden my-2 mx-1">
+    <section className='mx-3 sm:mx-6 p-1 h-[460px] my-8 group flex flex-col justify-between bg-[#100624c7] ring-2 ring-[#23153f] rounded-xl'>
+      <div className="rounded-xl overflow-hidden m-1">
         <img src={data.img} alt={data.userName} className='w-full h-full transform group-hover:scale-125 ease-in-out transition-transform duration-500' /></div>
         <div className='w-full flex flex-col space-y-1 px-3 py-1'>
           <span className='text-slate-300 text-sm w320:text-xs w360:text-sm'>{data.userHandle}</span>
