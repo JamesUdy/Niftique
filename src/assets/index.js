@@ -17,6 +17,7 @@ import Create from './svg/Create.jsx';
 import Rocket from './svg/Rocket';
 
 import Checked from './svg/Checked.svg';
+import Etherium from './svg/Etherium';
 
 import Rightarrow from './svg/Rightarrow.jsx';
 import Leftarrow from './svg/Leftarrow.jsx';
@@ -28,7 +29,8 @@ export {
     Checked,
 
     Rightarrow,
-    Leftarrow,    
+    Leftarrow,  
+    Etherium,  
     Play,
     Create,
     Explore,    

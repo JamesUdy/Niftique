@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react';
 
-import { Checked } from '../../../assets';
+import { Checked, Etherium } from '../../../assets';
 
 const NFTCardDetails = (props) => { 
 
   const { data } = props;
 
   return (
-    <section className='mx-3 sm:mx-6 p-1 h-[460px] my-8 group flex flex-col justify-between bg-[#0f0421bd] ring-2 ring-[#23153f] rounded-xl'>
+    <section className='relative mx-3 sm:mx-6 p-1 h-[460px] my-8 group flex flex-col justify-between bg-[#0f0421bd] ring-2 ring-[#23153f] rounded-xl'>
       <div className="rounded-xl overflow-hidden m-1">
-        <img src={data.img} alt={data.userName} className='w-full h-full transform group-hover:scale-125 ease-in-out transition-transform duration-500' /></div>
-        <div className='w-full flex flex-col space-y-1 px-3 py-1'>
+        <img src={data.img} alt={data.userName} className='w-full h-full transform group-hover:scale-125 ease-in-out transition-transform duration-500' />
+      </div>
+      <div className='w-full flex flex-col space-y-1 px-3 py-1'>
           <span className='text-slate-300 text-sm w320:text-xs w360:text-sm'>{data.userHandle}</span>
           <div className='flex items-center space-x-1'>
             <span className='text-white text-lg w320:text-xs w360:text-sm'>{data.userName}</span>
@@ -32,7 +33,8 @@ const NFTCardDetails = (props) => {
         </div>
         <span className='w-full px-2 mb-1'>
           <button className='w-full py-2 bg-[#341653b9] hover:bg-[#59189ad6] hover:text-slate-200 ease-in duration-300 px-4 rounded-lg'>Place Bid</button>
-        </span>
+        </span>  
+        <Etherium />      
     </section>    
   )
 };
