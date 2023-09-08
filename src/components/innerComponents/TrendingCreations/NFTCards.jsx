@@ -15,7 +15,7 @@ const NFTCards = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1280,
+        breakpoint: 1440,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,

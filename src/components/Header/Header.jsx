@@ -47,13 +47,13 @@ const Header = () => {
                         NIFTIQUE
                     </Link>
                 </div>
-                <div className={`hidden lg:flex items-center space-x-4 lg:space-x-6 list-none ${mobileMenuOpen ? 'hidden' : ''}`}>
+                <ul className={`hidden lg:flex items-center space-x-4 lg:space-x-6 list-none ${mobileMenuOpen ? 'hidden' : ''}`}>
                     {Nav_Link.map((item, index) => (
                         <li className="text-[#e0aaff] hover:text-white ease-in duration-300" key={index}>
                             <NavLink to={item.url}>{item.display}</NavLink>
                         </li>
                     ))}
-                </div>
+                </ul>
                 <div className="flex items-center">
                     <Link to="/wallet">
                         <button className="w320:hidden sm:flex group gap-3 py-2 px-4 border-2 text-[#9341db] border-[#7b2cbf] hover:bg-[#7a2cbf69] hover:border-[rgba(122,44,191,0.41)] hover:text-[#e0aaff] ease-in duration-300 rounded-3xl items-center">
