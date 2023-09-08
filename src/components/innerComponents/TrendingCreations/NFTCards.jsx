@@ -9,16 +9,18 @@ import './Slider.css';
 import NFTCardDetails from './NFTCardDetails';
 import dataset from './NFTData';
 
+import { Rightarrow, Leftarrow } from '../../../assets';
+
 const CustomPrevArrow = (props) => (
   <div className="custom-prev-arrow" onClick={props.onClick}>
-    Previous
+    <Leftarrow />
   </div>
 );
 
 const CustomNextArrow = (props) => (
-  <div className="custom-next-arrow" onClick={props.onClick}>
-    Next
-  </div>
+  <span className="custom-next-arrow p-0 m-0 bg-transparent rounded-full" onClick={props.onClick}>
+      <Rightarrow />
+  </span>
 );
 
 

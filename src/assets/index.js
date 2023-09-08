@@ -18,12 +18,17 @@ import Rocket from './svg/Rocket';
 
 import Checked from './svg/Checked.svg';
 
+import Rightarrow from './svg/Rightarrow.jsx';
+import Leftarrow from './svg/Leftarrow.jsx';
+
 export {
     Logo,
     Close,
     Menu,
     Checked,
-    
+
+    Rightarrow,
+    Leftarrow,    
     Play,
     Create,
     Explore,    
