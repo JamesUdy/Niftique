@@ -35,7 +35,7 @@ const Header = () => {
 
     return (
         <header className="top-0 left-0 sm:px-8 lg:px-12 px-6 z-10 fixed w-full bg-[#0f031500] backdrop-filter backdrop-blur-lg p-4">
-            <section className="container flex gap-8 lg:gap-12 item-center justify-between">
+            <section className="container mx-auto flex gap-8 lg:gap-12 item-center justify-between">
                 <div className="flex items-center justify-between">
                     <Link
                         to="/"

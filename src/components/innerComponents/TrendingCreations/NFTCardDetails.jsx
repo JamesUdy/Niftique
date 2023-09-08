@@ -7,13 +7,13 @@ const NFTCardDetails = (props) => {
   const { data } = props;
 
   return (
-    <section className='mx-6 p-1 my-8 group flex flex-col bg-[#100624c7] ring-2 ring-[#23153f] rounded-xl'>
-      <div class="rounded-xl overflow-hidden my-2 mx-1">
-        <img src={data.img} alt={data.userName} className='w-fit h-fit transform group-hover:scale-125 ease-in-out transition-transform duration-500' /></div>
+    <section className='mx-2 sm:mx-6 p-1 my-8 group flex flex-col bg-[#100624c7] ring-2 ring-[#23153f] rounded-xl'>
+      <div className="rounded-xl overflow-hidden my-2 mx-1">
+        <img src={data.img} alt={data.userName} className='w-full h-full transform group-hover:scale-125 ease-in-out transition-transform duration-500' /></div>
         <div className='w-full flex flex-col space-y-1 px-3 py-1'>
-          <span className='text-slate-300 text-sm'>{data.userHandle}</span>
+          <span className='text-slate-300 text-sm w320:text-xs w360:text-sm'>{data.userHandle}</span>
           <div className='flex items-center space-x-1'>
-            <span className='text-white'>{data.userName}</span>
+            <span className='text-white text-lg w320:text-xs w360:text-base w425:text-lg'>{data.userName}</span>
             {data.status && <img src={Checked} alt='UserName Verified' className='w-4 h-4' />}
           </div>
         </div>
@@ -21,13 +21,13 @@ const NFTCardDetails = (props) => {
           <div className='flex items-center space-x-2'>
             <img src={data.userDp} alt="User Profile Photo" className='w-8 h-8 rounded-full ring-2 ring-blue-950' />
             <div className='flex flex-col'>
-              <span className='text-xs text-slate-300'>Owned By</span>
-              <span className='text-[16px]'>{data.ownedBy}</span>
+              <span className='text-xs w320:text-[10px] w360:text-xs text-slate-300'>Owned By</span>
+              <span className='text-[16px] w320:text-[12px] w360:text-[16px]'>{data.ownedBy}</span>
             </div>
           </div>  
           <div className='flex flex-col items-end'>
-              <span className='text-xs text-slate-300'>Current Bid</span>
-              <span className='text-xs text-end break-all w-24'>{data.price}</span>
+              <span className='text-xs w320:text-[8px] w360:text-xs text-slate-300'>Current Bid</span>
+              <span className='text-xs w320:text-[8px] w360:text-xs text-end break-all w-16 w360:w-24'>{data.price}</span>
           </div>      
         </div>
         <span className='w-full px-2 mb-2'>

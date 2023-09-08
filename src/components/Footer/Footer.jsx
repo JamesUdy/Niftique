@@ -45,7 +45,7 @@ const Explore = [
 
 const Footer = () => {
   return <footer className='bg-[#0903128f] border-t-2 border-[#1e0732ba]'>
-    <section className='container mt-10 px-4'>
+    <section className='container mx-auto mt-10 px-4'>
       <div className='grid items-center gap-6 grid-cols-1 sm:px-32 lg:px-0 lg:grid-cols-[1fr,1fr,1fr,1fr]'>
         <section className='flex flex-col space-y-2'>
           <div className='flex items-center justify-between'>

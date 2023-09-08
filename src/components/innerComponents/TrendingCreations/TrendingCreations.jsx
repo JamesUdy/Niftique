@@ -7,7 +7,7 @@ import NFTCards from './NFTCards';
 
 const TrendingCreations = () => {
   return (
-    <section className='container border-t-2 mt-24 sm:mt-32 py-6 px-14 border-[#1e0732ba]'>
+    <section className='container mx-auto border-t-2 mt-24 sm:mt-32 py-6 px-14 border-[#1e0732ba]'>
             <div className='flex flex-col space-y-4 mx-auto'>
                 <div className='flex items-center justify-between space-x-4 my-6'>
                     <h2 className='text-xl tracking-tighter text-slate-200 font-semibold hover:underline hover:underline-offset-4'>TRENDING CREATIONS</h2>
