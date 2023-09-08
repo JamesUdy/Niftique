@@ -45,7 +45,7 @@ const NFTCards = () => {
   };
 
   return (
-    <section className='w320:px-4 sm:px-0 xl:px-24'>
+    <section className='w320:px-4 w425:px-10 sm:px-0 xl:px-24'>
       <Slider {...sliderSettings}>
         {dataset.map((data, index) => (
           <NFTCardDetails key={index} data={data} />
