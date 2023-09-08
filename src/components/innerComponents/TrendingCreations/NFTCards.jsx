@@ -71,7 +71,7 @@ const NFTCards = () => {
     slidesToScroll: 4,
     responsive: [
       {
-        breakpoint: 1030,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -101,7 +101,7 @@ const NFTCards = () => {
   };
 
   return (
-    <section className='xl:px-24'>
+    <section className='w320:px-4 sm:px-0 xl:px-24'>
       <Slider {...sliderSettings}>
         {dataset.map((data, index) => (
           <NFTCardDetails key={index} data={data} />
