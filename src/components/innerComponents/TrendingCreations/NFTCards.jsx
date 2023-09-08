@@ -14,7 +14,7 @@ import { CustomPrevArrow, CustomNextArrow } from './CustomArrowComponent';
 const NFTCards = () => {
   const sliderSettings = {
     dots: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1500,
     speed: 1500,
     slidesToShow: 4,

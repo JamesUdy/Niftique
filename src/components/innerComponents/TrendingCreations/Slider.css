@@ -17,39 +17,37 @@
 }
 
 .slick-dots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.slick-dots li {
+  list-style-type: none;
+  margin: 0 8px;
+}
 
+.slick-dots li button {
+  width: 8px; 
+  height: 8px; 
+  background-color: #5f032c80; 
+  border: none; 
+  border-radius: 50%;
+  cursor: pointer;
+}  
+
+.slick-dots li.slick-active button {
+  background-color: #b20a56;
+  scale: 1.5;
+}
+
+@media only screen and (max-width: 350px) {
   .slick-dots li {
-    list-style-type: none;
-    margin: 0 8px;
+    margin: 0 4px;
   }
-  
   .slick-dots li button {
-    width: 8px; 
-    height: 8px; 
-    background-color: #5f032c80; 
-    border: none; 
-    border-radius: 50%;
-    cursor: pointer;
+    width: 4px; 
+    height: 4px; 
   }  
-  
-  .slick-dots li.slick-active button {
-    background-color: #b20a56;
-    scale: 1.5;
-  }
-
-  @media only screen and (max-width: 350px) {
-    .slick-dots li {
-      margin: 0 4px;
-    }
-
-    .slick-dots li button {
-      width: 4px; 
-      height: 4px; 
-    }  
-  }
+}
   
