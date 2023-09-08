@@ -5,7 +5,6 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
-  /* color: ; */
 }
 
 .custom-prev-arrow {
@@ -16,31 +15,29 @@
   right: -10px;
 }
 
-/* Customize the dots container */
 .slick-dots {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
   }
-  
-  /* Customize the individual dots */
+
   .slick-dots li {
-    list-style-type: none; /* Remove default list style */
-    margin: 0 5px; /* Adjust spacing between dots */
+    list-style-type: none;
+    margin: 0 8px;
   }
   
   .slick-dots li button {
-    width: 10px; /* Customize dot width */
-    height: 10px; /* Customize dot height */
-    background-color: #333; /* Customize dot color */
-    border: none; /* Remove dot border */
-    border-radius: 50%; /* Make dots circular */
+    width: 8px; 
+    height: 8px; 
+    background-color: #5f032c80; 
+    border: none; 
+    border-radius: 50%;
     cursor: pointer;
-  }
+  }  
   
-  /* Style the active dot */
   .slick-dots li.slick-active button {
-    background-color: #ff5733; /* Customize the active dot color */
+    background-color: #b20a56;
+    scale: 1.5;
   }
   
