@@ -1,18 +1,37 @@
 import React from 'react';
 
 import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+import './Slider.css';
 
 import NFTCardDetails from './NFTCardDetails';
 import dataset from './NFTData';
 
+const CustomPrevArrow = (props) => (
+  <div className="custom-prev-arrow" onClick={props.onClick}>
+    Previous
+  </div>
+);
+
+const CustomNextArrow = (props) => (
+  <div className="custom-next-arrow" onClick={props.onClick}>
+    Next
+  </div>
+);
+
+
 const NFTCards = () => {
   const sliderSettings = {
     dots: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1500,
     speed: 1500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
     responsive: [
       {
         breakpoint: 1500,

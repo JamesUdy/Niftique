@@ -1,0 +1,49 @@
+.custom-prev-arrow,
+.custom-next-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.custom-prev-arrow {
+  left: 10px;
+}
+
+.custom-next-arrow {
+  right: 10px;
+}
+
+/* Customize the dots container */
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Customize the individual dots */
+  .slick-dots li {
+    list-style-type: none; /* Remove default list style */
+    margin: 0 5px; /* Adjust spacing between dots */
+  }
+  
+  .slick-dots li button {
+    width: 10px; /* Customize dot width */
+    height: 10px; /* Customize dot height */
+    background-color: #333; /* Customize dot color */
+    border: none; /* Remove dot border */
+    border-radius: 50%; /* Make dots circular */
+    cursor: pointer;
+  }
+  
+  /* Style the active dot */
+  .slick-dots li.slick-active button {
+    background-color: #ff5733; /* Customize the active dot color */
+  }
+  
