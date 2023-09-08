@@ -13,7 +13,7 @@ const NFTCardDetails = (props) => {
         <div className='w-full flex flex-col space-y-1 px-3 py-1'>
           <span className='text-slate-300 text-sm w320:text-xs w360:text-sm'>{data.userHandle}</span>
           <div className='flex items-center space-x-1'>
-            <span className='text-white text-lg w320:text-xs w360:text-base w425:text-lg'>{data.userName}</span>
+            <span className='text-white text-lg w320:text-xs w360:text-sm'>{data.userName}</span>
             {data.status && <img src={Checked} alt='UserName Verified' className='w-4 h-4' />}
           </div>
         </div>
@@ -21,8 +21,8 @@ const NFTCardDetails = (props) => {
           <div className='flex items-center space-x-2'>
             <img src={data.userDp} alt="User Profile Photo" className='w-8 h-8 rounded-full ring-2 ring-blue-950' />
             <div className='flex flex-col'>
-              <span className='text-xs w320:text-[10px] w360:text-xs text-slate-300'>Owned By</span>
-              <span className='text-[16px] w320:text-[12px] w360:text-[16px]'>{data.ownedBy}</span>
+              <span className='text-xs w320:text-[10px] w360:text-xs text-slate-300'>created By</span>
+              <span className='text-[16px] w320:text-[12px] w360:text-[16px]'>{data.createdBy}</span>
             </div>
           </div>  
           <div className='flex flex-col items-end'>
