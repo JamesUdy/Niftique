@@ -41,4 +41,15 @@
     background-color: #b20a56;
     scale: 1.5;
   }
+
+  @media only screen and (max-width: 350px) {
+    .slick-dots li {
+      margin: 0 4px;
+    }
+
+    .slick-dots li button {
+      width: 4px; 
+      height: 4px; 
+    }  
+  }
   
