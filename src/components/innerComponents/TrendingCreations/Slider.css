@@ -36,6 +36,11 @@
   cursor: pointer;
 }  
 
+.slick-dots li button:hover {
+  background-color: #67012f;
+  scale: 1.5;
+}  
+
 .slick-dots li.slick-active button {
   background-color: #b20a56;
   scale: 1.5;
