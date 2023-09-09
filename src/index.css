@@ -27,3 +27,14 @@ body {
     background-image: radial-gradient(circle, #150127c3, #080113, #090016, #06020f, #07030f);
 }
 
+/* customScrollBar */
+::-webkit-scrollbar {
+    width: 0.4rem;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2cm;
+    background-color: #9341db85;
+}
+
