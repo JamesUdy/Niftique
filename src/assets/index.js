@@ -22,6 +22,10 @@ import Etherium from './svg/Etherium';
 import Rightarrow from './svg/Rightarrow.jsx';
 import Leftarrow from './svg/Leftarrow.jsx';
 
+import Collection from './svg/Collection.jsx';
+import CreateAction from './svg/CreateAction.jsx';
+import Sell from './svg/Sell.jsx';
+
 export {
     Logo,
     Close,
@@ -39,5 +43,8 @@ export {
     Facebook,
     Github,
     Wallet,
+    Collection,
+    CreateAction,
+    Sell,
     Rocket,
 };
