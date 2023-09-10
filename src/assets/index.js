@@ -25,6 +25,7 @@ import Leftarrow from './svg/Leftarrow.jsx';
 import Collection from './svg/Collection.jsx';
 import CreateAction from './svg/CreateAction.jsx';
 import Sell from './svg/Sell.jsx';
+import WalletAction from './svg/WalletAction.jsx';
 
 export {
     Logo,
@@ -46,5 +47,6 @@ export {
     Collection,
     CreateAction,
     Sell,
+    WalletAction,
     Rocket,
 };

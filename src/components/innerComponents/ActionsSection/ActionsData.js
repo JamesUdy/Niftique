@@ -1,9 +1,9 @@
-import { Sell, Wallet, CreateAction, Collection } from "../../../assets";
+import { Sell, WalletAction, CreateAction, Collection } from "../../../assets";
 
 const ActionsData = [
     {
         id: 1,
-        img: Wallet,
+        img: WalletAction,
         title: 'Link Your Wallet',
         description: 'Once your preferred wallet is configured, establish a connection with OpenSea by clicking on the wallet icon located in the top right corner. Familiarize yourself with the wallets we support for a seamless experience.',
     },
