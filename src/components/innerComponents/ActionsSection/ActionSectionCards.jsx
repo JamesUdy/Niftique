@@ -8,7 +8,7 @@ const ActionSectionCards = () => {
         {ActionsData.map((data) => {
             return (
                 <div key={data.id} className='bg-[#09020e] group rounded-lg h-80 mx-2 p-4'>
-                    <div className='relative p-2 flex flex-col  rounded-lg border-[#1d0a29] justify-center space-y-6 items-center border-2 h-full'>
+                    <div className='relative p-2 flex flex-col  rounded-lg border-[#1d0a29] ease-in duration-200 group-hover:border-[#22142b] justify-center space-y-6 items-center border-2 h-full'>
                         <div className='mt-2'>
                             {<data.img />}
                         </div>
