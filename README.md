@@ -1,5 +1,7 @@
 # 🌌 Welcome to NIFTIQUE: Shaping Tomorrow, Today! 🚀
 
+![NIFTIQUE Demo Image](https://i.imgur.com/qBRBcfz.png)
+
 ## **🚧 Project Illumination:**
 
 Greetings, trailblazers of the digital frontier! 🚀🎮 Prepare to embark on a journey that transcends the boundaries of imagination and code – introducing NIFTIQUE, where innovation evolves into an art form!
