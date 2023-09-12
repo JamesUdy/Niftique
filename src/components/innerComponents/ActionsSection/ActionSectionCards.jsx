@@ -16,7 +16,7 @@ const ActionSectionCards = () => {
                             <span className='text-sm text-slate-100'>{data.title}</span>
                             <p className='text-center text-slate-400 text-xs'>{data.description}</p>
                         </div>
-                        <span className='absolute tracking-normal -top-[26px] -left-[1.5px] py-1 px-4 rounded-tl-lg border-r-8  border-b-8 border-[#09020e] bg-[#14061c] font-medium text-[#641197] group-hover:text-[#732c9f] ease-in duration-200'>0{data.id}</span>
+                        <span className='absolute tracking-normal -top-[26px] -left-[1.5px] py-1 px-4 rounded-tl-lg border-r-8  border-b-8 border-[#09020e] bg-[#14061c] font-medium text-[#641197] group-hover:text-[#8e46bb] ease-in duration-200'>0{data.id}</span>
                     </div>                    
                 </div>
             )
