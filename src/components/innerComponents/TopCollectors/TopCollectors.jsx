@@ -30,17 +30,21 @@ const TopCollectors = () => {
   console.log(nfts)
 
   return (
-    <section className="container mx-auto mt-24 sm:mt-32 py-6 px-6 sm:px-14">
+    <section className="container mx-auto mt-24 sm:mt-32 py-6 px-6 sm:px-14 flex flex-col">
       <span>Top Creators</span>
       {nfts.length > 0 ? (
-        nfts.slice(0, showCount).map((nft, key) => (
-          <>
-            <span className="text-white" key={key}>
-              {nft.title}
-            </span>
-            <img src={nft.rawMetadata.image} alt="" className='w-10 h-10' />
-          </>
-        ))
+        <div className='flex space-x-4 overflow-x-scroll w-2/3 mx-auto'>
+          {
+            nfts.slice(0, showCount).map((nft, key) => (
+              <section>
+                <span className="text-white" key={key}>
+                  {nft.title}
+                </span>
+                <img src={nft.rawMetadata.image} alt="" className='w-10 h-10' />
+              </section>
+            ))
+          }
+        </div>
       ) : (
         <div>No NFTs available</div>
       )}
