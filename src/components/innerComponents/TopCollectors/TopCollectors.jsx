@@ -11,11 +11,10 @@ const TopCollectors = () => {
 
   useEffect(() => {
     const settings = {
-      apiKey: apiKey, // Replace with your Alchemy API Key.
+      apiKey: apiKey,
     };
     const alchemy = new Alchemy(settings);
 
-    // Fetch NFTs using Alchemy SDK
     alchemy.nft
       .getNftsForContract('0x61fce80d72363b731425c3a2a46a1a5fed9814b2')
       .then((nftData) => {
@@ -27,20 +26,21 @@ const TopCollectors = () => {
       });
   }, []);
 
-  console.log(nfts)
+
+  console.log(nfts);
 
   return (
     <section className="container mx-auto mt-24 sm:mt-32 py-6 px-6 sm:px-14 flex flex-col">
       <span>Top Creators</span>
       {nfts.length > 0 ? (
-        <div className='flex space-x-4 overflow-x-scroll w-2/3 mx-auto'>
+        <div className='flex space-x-24 w-2/3 mx-auto overflow-x-auto'>
           {
-            nfts.slice(0, showCount).map((nft, key) => (
-              <section>
-                <span className="text-white" key={key}>
+            nfts.slice(0, showCount).map((nft, index) => (
+              <section key={index} className='flex'>
+                <span className="text-white">
                   {nft.title}
                 </span>
-                <img src={nft.rawMetadata.image} alt="" className='w-10 h-10' />
+                <img loading='lazy' src={nft.contract.openSea.imageUrl} alt="" className='w-10 h-10 rounded-3xl' />
               </section>
             ))
           }
