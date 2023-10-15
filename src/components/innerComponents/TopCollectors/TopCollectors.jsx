@@ -3,7 +3,7 @@ import { Alchemy } from 'alchemy-sdk';
 import Marquee from 'react-fast-marquee';
 
 const TopCollectors = () => {
-  const perPage = 4;
+  const perPage = 10;
   const [nfts, setNfts] = useState([]);
   const [showCount, setShowCount] = useState(perPage);
   const [errorMessageText, setErrorMessageText] = useState('');
@@ -35,7 +35,7 @@ const TopCollectors = () => {
     <section className="container mx-auto mt-24 sm:mt-32 py-6 px-6 sm:px-14 flex flex-col">
       <span>Top Creators</span>
       {nfts.length > 0 ? (
-        <div className='flex space-x-4 w-2/3 mx-auto overflow-hidden'>
+        <Marquee pauseOnHover={true} loop={false} className='flex space-x-4 w-2/3 mx-auto'>
           {
             nfts.slice(0, showCount).map((nft, index) => (
               <section key={index} className='flex flex-col w-full py-2 px-4 rounded-xl justify-between bg-[#acacac33]'>
@@ -47,7 +47,7 @@ const TopCollectors = () => {
               </section>
             ))
           }
-        </div>
+        </Marquee>
       ) : (
         <div>No NFTs available</div>
       )}
