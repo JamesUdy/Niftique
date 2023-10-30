@@ -2,10 +2,10 @@ import React from 'react';
 
 const Popup = ({onClose, onConfirm}) => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-50">
+    <div className="fixed w-1/2 mx-auto inset-0 flex items-center justify-center z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg shadow-black">
         <p className="text-lg text-gray-700 mb-4">
-          Are you sure you want to view the website?
+            🚧 This website is currently under development, and there may be unfinished components or work in progress. 🛠️ We appreciate your understanding and patience. If you wish to proceed, click "OK." 👍
         </p>
         <div className="flex justify-end">
           <button
