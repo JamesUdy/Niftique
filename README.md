@@ -1,4 +1,4 @@
-# 🌌 Welcome to Niftique: Shaping Tomorrow, Today! 🚀
+# 🌌 Welcome to NIFTIQUE: Shaping Tomorrow, Today! 🚀
 
 ## **🚧 Project Illumination:**
 
